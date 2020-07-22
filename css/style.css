@@ -1,0 +1,145 @@
+/* +++ Font Family +++ */
+/* Heading */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+/* Body */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background: #fafafa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+}
+
+.navbar .bg-light {
+  background: #fafafa;
+}
+
+.navbar li {
+  padding-left: 15px;
+}
+
+.navbar a {
+  color: #837d87 !important;
+  text-transform: uppercase;
+}
+
+.navbar a.btn {
+  padding: 5px 20px !important;
+}
+
+.navbar a.btn-outline-primary {
+  border: 1px solid #2d2640;
+  border-radius: 0;
+  color: #2b272f !important;
+}
+
+.navbar a.btn-outline-primary:hover {
+  background: #2d2640;
+  color: #fafafa !important;
+}
+
+.hero .jumbotron {
+  background: #2d2640;
+  border-radius: 0;
+}
+
+.hero .jumbotron .h-bg-1 {
+  content: '';
+  position: absolute;
+  top: 55%;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url("/images/bg-pattern-intro-left-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.hero .jumbotron .h-bg-2 {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: 70%;
+  height: 80%;
+  width: 100%;
+  background-image: url(/images/bg-pattern-intro-right-desktop.svg);
+  background-repeat: no-repeat;
+  z-index: 99;
+}
+
+.hero .jumbotron .h-hr {
+  border: 0;
+  width: 150px;
+  border-top: 1px solid #fafafa;
+}
+
+.hero .jumbotron .h-title, .hero .jumbotron .h-par {
+  color: #fafafa;
+}
+
+.hero .jumbotron a.btn-outline-primary {
+  border: 1px solid #fafafa !important;
+  border-radius: 0;
+  color: #fafafa !important;
+}
+
+.hero .jumbotron a.btn-outline-primary:hover {
+  background: #fafafa !important;
+  color: #2d2640 !important;
+}
+
+.hero .jumbotron .h-img {
+  position: absolute;
+  z-index: 90;
+}
+
+.main .m-hr {
+  border: 0;
+  margin-top: 150px;
+  width: 150px;
+  border-top: 1px solid #2b272f;
+}
+
+.cta .jumbotron {
+  background: #2d2640;
+  border-radius: 0;
+}
+
+.cta .jumbotron .cta-title {
+  color: #fafafa;
+}
+
+.cta .jumbotron .cta-btn {
+  padding: 5px 20px !important;
+  border: 1px solid #fafafa;
+  border-radius: 0;
+  color: #fafafa !important;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.cta .jumbotron .cta-btn:hover {
+  background: #fafafa;
+  color: #2d2640 !important;
+}
+
+.footer {
+  background: #efefef;
+}
+
+.footer .f-title {
+  text-transform: uppercase;
+  color: #837d87;
+}
+
+.footer li {
+  list-style: none;
+  margin-bottom: 0.75rem;
+}
+
+.footer li a {
+  color: #2b272f;
+}
+/*# sourceMappingURL=style.css.map */

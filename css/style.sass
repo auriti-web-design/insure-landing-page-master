@@ -1,0 +1,141 @@
+
+$dv: 	#2d2640;
+$gv: 	#95a9c6;
+
+
+$dv-n:  #2b272f;
+$gv-n:  #837d87;
+$lg:    #fafafa;
+
+
+/* +++ Font Family +++ */
+
+/* Heading */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+/* Body */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+body 
+    font-family: 'Karla', sans-serif
+    font-size: 16px
+    background: $lg
+
+h1, h2, h3, h4, h5, h6 
+    font-family: 'DM Serif Display', serif
+
+.navbar
+    .bg-light
+        background: $lg
+
+    li
+        padding-left: 15px 
+    a
+        color: $gv-n !important
+        text-transform: uppercase
+
+    a.btn
+        padding: 5px 20px !important
+
+    a.btn-outline-primary
+        border: 1px solid $dv
+        border-radius: 0
+        color: $dv-n !important
+
+        &:hover
+            background: $dv
+            color: $lg !important
+
+.hero
+    .jumbotron
+        background: $dv
+        border-radius: 0
+
+        .h-bg-1
+            content: ''
+            position: absolute
+            top: 55%
+            left: 0
+            height: 100vh
+            width: 100%
+            background-image: url('/images/bg-pattern-intro-left-desktop.svg')
+            background-repeat: no-repeat
+
+        .h-bg-2
+            content: ''
+            position: absolute
+            top: -25px
+            left: 70%
+            height: 80%
+            width: 100%
+            background-image: url(/images/bg-pattern-intro-right-desktop.svg)
+            background-repeat: no-repeat
+            z-index: 99
+
+        
+
+        .h-hr
+            border: 0
+            width: 150px
+            border-top: 1px solid $lg
+
+        .h-title, .h-par
+            color: $lg
+
+        
+        a.btn-outline-primary
+            border: 1px solid $lg !important
+            border-radius: 0
+            color: $lg !important
+
+            &:hover
+                background: $lg !important
+                color: $dv !important
+        
+        .h-img
+            position: absolute
+            z-index: 90
+        
+.main
+    .m-hr
+        border: 0
+        margin-top: 150px
+        width: 150px
+        border-top: 1px solid $dv-n
+
+.cta
+    .jumbotron
+        background: $dv
+        border-radius: 0
+        
+        .cta-title
+            color: $lg
+
+        .cta-btn
+            padding: 5px 20px !important
+            border: 1px solid $lg
+            border-radius: 0
+            color: $lg !important
+            text-transform: uppercase
+            font-size: 16px
+
+            &:hover
+                background: $lg
+                color: $dv !important
+
+
+.footer
+    background: #efefef
+
+    .f-title
+        text-transform: uppercase
+        color: $gv-n
+
+    li
+        list-style: none
+        margin-bottom: 0.75rem
+
+        a
+            color: $dv-n
+
